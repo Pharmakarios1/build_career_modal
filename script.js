@@ -10,9 +10,11 @@ const handleClose = () => {
 };
 
 const handleOpen = () => {
+  const instruct = document.querySelector("main");
   modal.style.display = "block";
   modalButton.style.display = "none";
   modalOverlay.style.display = "block";
+  instruct.style.display = "none";
 };
 
 Modalclose.addEventListener("click", handleClose);
