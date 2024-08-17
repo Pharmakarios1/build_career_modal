@@ -130,7 +130,7 @@ body{
     font-weight: 600;
     color: #266cfb;
 }
-main div{
+.box{
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -141,6 +141,10 @@ main div{
     border-radius: 15px;
     text-align: center;
     box-shadow: 0px 10px 1px #6c7567;
+}
+.box h2{
+    color: rgb(69, 14, 69);
+    font-weight: 700;
 }
 main div p{
     margin-top: 10px;
@@ -155,6 +159,18 @@ main h1{
     animation: 
         type 4s steps(30) 1s infinite,
         blink 0.5s steps(1) infinite;
+}
+.box .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.grid-item{
+    border: 1px solid grey;
+    box-shadow: 1px 1px 10px #277c67;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 @keyframes type {
