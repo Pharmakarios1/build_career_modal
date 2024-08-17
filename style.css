@@ -130,6 +130,10 @@ body{
     font-weight: 600;
     color: #266cfb;
 }
+main{
+    margin: 0 auto;
+    width: fit-content;
+}
 .box{
     display: flex;
     flex-direction: column;
@@ -171,6 +175,12 @@ main h1{
     box-shadow: 1px 1px 10px #277c67;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.grid-item:hover{
+    background-color: purple;
+    color: white;
+    transform: scale(1.15);
 }
 
 @keyframes type {
