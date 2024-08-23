@@ -183,6 +183,15 @@ main h1{
     transform: scale(1.15);
 }
 
+.enter a{
+    display: flex;
+    align-items: center;
+    color: #266cfb;
+    border: 1px solid #266cfb;
+    border-radius: 5px;
+    padding: 0 1px;
+
+}
 @keyframes type {
     to{ width: 13ch;}
 }

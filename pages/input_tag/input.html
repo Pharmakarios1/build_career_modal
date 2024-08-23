@@ -2,13 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tag Input Component</title>
     <link rel="stylesheet" href="input.css" />
   </head>
   <body>
-    <textarea name="input" id="input">
-      hello
-    </textarea>
+    <div class="tag-input-container">
+      <ul class="tags-list"></ul>
+      <input
+        type="text"
+        class="tag-input"
+        placeholder="Press Enter or comma to add tags"
+      />
+    </div>
+
+    <script src="input.js"></script>
   </body>
 </html>
